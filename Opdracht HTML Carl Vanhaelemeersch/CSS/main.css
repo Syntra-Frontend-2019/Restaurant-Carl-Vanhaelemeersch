@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'bergamot_ornamentsregular';
+    src: url('../fonts/bergamot_ornaments-webfont.woff2') format('woff2'),
+         url('..fonts/bergamot_ornaments-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* HEADER */
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.flex-grid{
+    display:flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+.hero{
+    background-image: url(../img/sla.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+/* Bovenste balk */
+.gradient{
+    min-height: 20vh;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); 
+  }
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-header{
+    width: 30%;
+    text-align: left;
+}
+
+
+.nav-list{
+    width: 70%;
+    margin-top: 2%;
+}
+
+.nav-list li{
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 1%;
+}
+.nav-list li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* social media */
+.fab:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    color: white;
+  }
+.fa-twitter {
+    color: white;
+}
+.fa-youtube {
+    color: white;
+}
+.social{
+    margin:2px;
+}
+
+h1{
+    font-size: 5em;    
+    text-align: center;
+    margin: 4% 0 0 0;
+    font-family: 'Yeseva One', cursive;
+}
+
+.wit{
+    color: rgb(245, 245, 245);
+}
+
+.ornament {
+    font-family: "bergamot_ornamentsregular";
+    text-align: center;
+    font-size: 75px;
+    margin-bottom: 2%
+}
+.button{
+    display: inline-block;
+    padding: 1em 4em;
+    text-decoration: none;
+    margin-bottom: 12%;
+  }
+  
+.button.dark{
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    border: 1.3px solid rgb(0, 0, 0, 0.8);
+}
+  
+.button.white{
+    background: rgba(255,255,255,0.3);
+    color: white;
+    border: 1.3px solid rgb(255, 255, 255, 0.6);
+}
+
+
+/* JUST THE RIGHT FOOD */
+.col{
+    flex:1;
+}
+
+
+.food-one{
+    background-image: url(../img/pattern.png);
+    text-align: center;
+}
+.gradient-two{
+    height: 100%;
+    background: linear-gradient(to left, rgba(54, 54, 54, 0.144) 0%,rgba(0,0,0,0) 100%); 
+  }
+
+h2{
+    font-size: 2em;
+    margin: 100px 0 0 0;
+    font-family: 'Yeseva One', cursive;
+}
+
+
+.ornament-small{
+    font-family: "bergamot_ornamentsregular";
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 2%
+}
+
+.orange{
+    color: rgb(224, 159, 39);
+}
+
+.col p{
+    margin-bottom: 8%
+}
+.dish{
+    margin-top: 5%;
+}
+
+/* FINE INGREDIENTS */
+.food-two{
+    background-image: url(../img/bg.png);
+    text-align: center;
+    height: 660px;
+}
+
+.kader{
+    width: 80%;
+    height: 90%;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.205), rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.781));
+}
+
+.afstand{
+    padding-top: 15%;
+}
+
+.kader p{
+    margin: 0 10% 10% 10%;
+}
+
+/* APPETISERS */
+.container-2{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-around
+}
+h3{
+    font-family: 'Yeseva One', cursive;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid  rgb(224, 159, 39);
+}
+.filler{
+    width: 15%;
+    height: 100%;
+}
+.container-2 p{
+    text-align: left;
+}
+.groove{
+    border: 1px solid  rgba(224, 159, 39, 0.377);
+    position: relative;
+}
+
+.groove:after {
+    content: "Special";
+    box-sizing: border-box;
+    padding: 5px 15px;
+    color: white;
+    height: 25px;
+    background: rgb(224, 159, 39);
+    position: absolute;
+    top: -25px;
+    right: -1px;
+  }
+
+.filler-twee{
+    margin-bottom: 100px;
+}
+
+/* GUEST REVIEWS */
+.food-tree{
+    background-image: url(../img/sate.png);
+    height: 700px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.quote:before{
+    content: "\201C";
+    color: rgba(172, 160, 160, 0.705);
+    font-size: 2em;
+}
+.size{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.kader-twee{
+    height: 70%;
+    align-items: center;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.719), rgba(0, 0, 0, 0.904));
+}
+
+/* JUST THE RIGHT FOOD */
+.container-3{
+    width: 80vw;
+    margin: 0 auto;
+}
+.img-reserv{
+    margin: 10% 2%;
+}
+.breedte{
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.adjust{
+    margin-top: 10%;
+}
+.form-p{
+    font-size: 1.2em;
+}
+
+
+.form{
+    width: 45%;
+    margin: 2.5%;;
+    font-size: 1.1em;
+    text-align: left;
+}
+.form label{
+    font-weight: bold;
+}
+
+.form input{
+    width:100%;
+    color: rgba(0, 0, 0, 0.801)
+}
+
+
+.btn-center{
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.buttontwee{
+background-color: rgb(224, 159, 39);
+border-style: none;
+padding: 3% 20%;
+margin-bottom: 5%;
+}
+
+/* footer */
+.zwart{
+    background-color: rgba(20, 19, 19, 0.966)
+}
+.foot{
+    justify-content: space-between;
+    text-align: center;
+}
+footer div.container div.col{
+    margin-bottom: 4%;
+}
+
+/* RESPONSIVE  */
+@media (max-width: 1100px) {
+    .col-b {
+      flex: 100%;
+      max-width: 100%;
+      max-height: 100%;
+    }
+}
+
+@media (max-width:820px) {
+    .dish{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width:800px){
+    /* .container-3{
+        flex-direction: column;
+    } */
+    .img-reserv{
+        width: 470px;
+    }
+}
+@media (max-width:600px){
+    .img-reserv{
+        width: 350px;
+    }
+}
+
